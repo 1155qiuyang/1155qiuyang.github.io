@@ -24,7 +24,7 @@ twitter_username: huxpro
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 5
+paginate: 3
 exclude:
   [
     "less",
@@ -78,8 +78,8 @@ sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ 
 sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+#featured-tags: true # whether or not using Feature-Tags
+#featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
