@@ -22,7 +22,9 @@ internal: 在同一命名空间内可以访问。
 
 2 .列举ASP.NET 页面之间传递值的几种方式。
 
-答. 一.使用QueryString, 如....?id=1; response. Redirect()....
+答. 
+
+    一.使用QueryString, 如....?id=1; response. Redirect()....
 
     二.使用Session变量
 
