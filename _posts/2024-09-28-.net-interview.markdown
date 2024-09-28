@@ -1,0 +1,37 @@
+---
+layout:       post
+title:        ".net常见的面试题"
+author:       "史密斯"
+header-style: text
+catalog:      true
+tags:
+    - C#
+    - Bank-end
+---
+
+#常见的面试题
+1. 简述 private、 protected、 public、 internal 修饰符的访问权限。
+
+答 . private : 私有成员, 在类的内部才可以访问。
+
+protected : 保护成员，该类内部和继承类中可以访问。
+
+public : 公共成员，完全公开，没有访问限制。
+
+internal: 在同一命名空间内可以访问。
+
+2 .列举ASP.NET 页面之间传递值的几种方式。
+
+答. 1.使用QueryString, 如....?id=1; response. Redirect()....
+
+2.使用Session变量
+
+3.使用Server.Transfer
+
+
+
+
+
+
+
+
