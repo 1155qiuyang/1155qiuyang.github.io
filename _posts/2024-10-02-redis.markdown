@@ -3,7 +3,7 @@ layout:       post
 title:        "redis常见的问题"
 author:       "史密斯"
 header-style: text
-catalog:      true
+catalog:      false
 tags:
     - C#
     - Bank-end
