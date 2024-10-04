@@ -60,7 +60,7 @@ $1 一个字节\r\n
 *\r\n  
 
 
-set age 20
+set age 20  
 "*3\r\n$3\r\nset\r\n$3\r\nage\r\n$2\r\n20\r\n"  
 
 知道规律，就可以很容易找到  
