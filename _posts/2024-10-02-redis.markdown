@@ -12,6 +12,35 @@ tags:
 
 
 
+redis通信协议[write(3,"*2\r\n$4\r\nkeys\r\n$1\r\n*\r\n",21)=21<0.0000089>]
+write表示系统调用函数，
+21表示字节数，
+3表示socket文件并且已经连接了redis-server，
+0.000000089耗费时间
+
+redis查看历史记录"/root/redicil_history"  
+
+
+"*2\r\n$4\r\nkeys\r\n$1\r\n*\r\n"redis通信协议的数据格式  
+
+keys *=6  
+
+*2 是指参数个数，有2个\r\n  
+
+
+$4 是指参数字节数，表示4个字节 32bit\r\n
+keys \r\n
+
+$1 一个字节\r\n
+*\r\n
+
+知道规律，就可以很容易找到
+write是send
+read是receive
+
+
+
+
 Redis 5 种数据结构
 String、Hash、List、Set、Zset
 
