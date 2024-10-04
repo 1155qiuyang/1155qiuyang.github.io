@@ -31,12 +31,17 @@ keys *=6
 $4 是指参数字节数，表示4个字节 32bit\r\n
 keys \r\n
 
-$1 一个字节\r\n
-*\r\n
+$1 一个字节\r\n  
 
-知道规律，就可以很容易找到
-write是send
-read是receive
+*\r\n  
+
+
+set age 20
+"*3\r\n$3\r\nset\r\n$3\r\nage\r\n$2\r\n20\r\n"  
+
+知道规律，就可以很容易找到  
+write是send  
+read是receive  
 
 
 
