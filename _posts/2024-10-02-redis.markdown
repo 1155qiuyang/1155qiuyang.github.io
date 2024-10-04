@@ -11,6 +11,30 @@ tags:
 ---
 
 
+redis 主从复制原理  
+
+1创建epollfd  创建ipv4 tcp     bin（0.0.0.0）   litend监听   加入epoll内核中   
+
+
+1创建ipv4 tcp   创建socket 8  连接master redis     把socket 8加入epoll内核中  
+
+1启动connect   发送     发送    写入    写入  写入  
+
+
+
+
+mysql主从复制原理  
+
+
+A4139线程接收并且同步数据    
+B4139线程把接收的数据写入中继日志文件里    
+C4140线程把接收的中继日志文件数据读取到sql数据   
+D4041线程把sql语句写入日志文件里  
+
+
+
+
+
 
 redis通信协议[write(3,"*2\r\n$4\r\nkeys\r\n$1\r\n*\r\n",21)=21<0.0000089>]
 write表示系统调用函数，
