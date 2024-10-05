@@ -11,6 +11,27 @@ tags:
 ---
 
 
+
+
+
+关于分页原理如下  
+pagesize = 3  
+总页数total=10  
+总条数totalsize=4 (10-1)/3+1
+
+总共10条数据  
+select * from new limit 0,3 第一页 (1-1)*3  
+select * from new limit 3,3 第二页 (2-1)*3  
+select * from new limit 6,3 第三页 (3-1)*3  
+select * from new limit 9,3 第四页 (4-1)*3  
+
+总结  
+select * from new limit (page-1)*3,3  
+
+
+
+
+
 redis 主从复制原理  
 
 1创建epollfd  创建ipv4 tcp     bin（0.0.0.0）   litend监听   加入epoll内核中   
