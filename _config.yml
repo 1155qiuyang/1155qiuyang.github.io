@@ -1,7 +1,7 @@
-title: "Affiliates"
+title: "After"
 email: wowthemesnet@gmail.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -47,7 +47,7 @@ authors:
 social:
   instagram: https://www.instagram.com/bootstrapstarter/
   facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom/
+  twitter: https://x.com/chenfeng666817
   medium: https://medium.com/@s10880217
   reddit: https://twitter.com/ssssss
   
