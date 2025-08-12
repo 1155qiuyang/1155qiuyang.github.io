@@ -1,7 +1,14 @@
+
+
+
+
+
+
+
 ---
-layout:post
-title:"Celebrating Kim Parsell: 2025 WordCamp US Scholarship Applications Open"
-categories:[ php ]
+layout:  post
+title:  "Celebrating Kim Parsell: 2025 WordCamp US Scholarship Applications Open"
+categories:  [ php ]
 
 ---
 
