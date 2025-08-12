@@ -1,10 +1,9 @@
 ---
-layout:  post
+layout: post
 title:  "Celebrating Kim Parsell: 2025 WordCamp US Scholarship Applications Open"
-categories:  [ wordpress,php ]
+categories: [ wordpress,php ]
 
 ---
-
 
 
 Kim Parsell was a dedicated contributor and a beloved member of the WordPress community. 
